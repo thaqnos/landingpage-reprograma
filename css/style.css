@@ -21,12 +21,10 @@ body{
     width: 100%;
 }
 
-.topbar__menu ul{
+.topbar__menu{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    color: white;
-    text-decoration: none;
 }
 
 .topbar__menu__item{
