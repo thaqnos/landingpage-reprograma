@@ -94,6 +94,30 @@ body{
     padding: 15px 30px;
     border-radius: 5px;
     color: rgb(136, 99, 6);
+    text-transform: uppercase;
+    cursor: pointer;    
+}
 
-    
+.cabecalho__call-to-action:hover{
+   background-color: rgb(136, 99, 6);
+   color: white;    
+}
+
+/*Sobre*/
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.sobre__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre__card img{
+    height: 123px;
+    width: auto;
 }
