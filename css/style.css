@@ -246,3 +246,50 @@ h1, h2{
     background-color: rgb(136, 99, 6);
     color: white;    
 }
+
+.newsletter{    
+    padding: 50px 0;
+    width: 100%;
+    background-color: #ffff; 
+}
+
+.newsletter > h4{
+    margin: 0;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.newsletter > div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.newsletter__email{
+    padding: 6px 120px;
+    border-radius: 3px;
+    font-size: 100%;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.newsletter__email::placeholder{
+    font-family: 'Raleway', sans-serif;
+}
+
+.newsletter__call-to-action{
+    border: none;
+    padding: 8px 30px;
+    border-radius: 3px;
+    background-color: purple;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer; 
+    font-size: 100%;    
+}
+
+.newsletter__call-to-action span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
