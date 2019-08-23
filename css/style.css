@@ -6,7 +6,7 @@
 
 body{
     margin: 0;
-    
+    overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -71,11 +71,13 @@ body{
     color: #DCDCDC;
     padding: 10px;
     text-transform: uppercase;
+    text-align: end;
 }
 
 .cabecalho__descricao{
     color: white;
-    padding: 10px;
+    margin-bottom: 31px;
+    line-height: 20px;
 
 }
 
@@ -144,6 +146,8 @@ h1, h2{
     padding-right: 20px;
 }
 
+/*Como funciona-Card*/
+
 .como-funciona__conteudo{
     width: 100%;
     padding: 20px;
@@ -168,3 +172,77 @@ h1, h2{
     font-weight: 580px;
 }
 
+/*Serviços-Card*/
+
+.servicos{
+    background-image: url('../img/bg-servicos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    position: relative;
+}
+
+.servicos > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.servicos > h2{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.servicos__card{
+    background-color: #2bc1d1;
+    width: 300px;
+    height: 320px;
+    border-radius: 5px;
+    padding: 0px 34px;
+    margin: 0 10px;
+    color: white;
+    text-align: center;
+}
+
+.servicos__card img{
+    width: 50%;
+}
+
+.servicos__card > p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.servicos__call-to-action {
+    background-color: #FEDD6A;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(136, 99, 6);
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.servicos__call-to-action > a{
+    text-decoration: none;
+}
+
+.servicos__call-to-action:hover{
+    background-color: rgb(136, 99, 6);
+    color: white;    
+}
