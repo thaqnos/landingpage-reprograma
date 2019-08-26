@@ -293,3 +293,47 @@ h1, h2{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
+
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(#2b002b, #000000);
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__brand {
+    font-size: 13px;
+}
+
+.footer__brand span {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer__brand > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 22px;
+}
+
+.footer__brand > p{
+    margin: 10px;
+
+}
+
